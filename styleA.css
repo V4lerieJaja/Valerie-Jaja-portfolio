@@ -1,0 +1,115 @@
+*{   margin: 0;
+    padding: 0;
+     font-style: "poppons",san-serif;
+     text-decoration: none;
+     list-style: none;
+ }
+ 
+ 
+ 
+ .header1 {
+     position:fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     padding: 35px 12%;
+     background: rgb(223, 79, 103);
+     backdrop-filter: blur(10px);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     z-index: 100;
+ 
+ }
+ .logo{font-size: 50px;
+ color:bisque;
+ font-weight: 600;
+ transition: 0.3s ease;
+ }
+ 
+ .logo:hover{
+     color:rgb(243, 145, 161)
+ }
+ span{
+     color:rgb(243, 157, 171)
+     
+ }
+ .navbarA a{
+     font-size: 18;
+     color:azure;
+     font-weight: 500;
+     margin:0 20px;
+     border-bottom: 3px solid transparent;
+     transition: 0.3s ease; 
+ 
+ }
+ .navbarA a:hover, 
+ .navbarA a.active{
+     color: rgb(158, 21, 74);
+     border-bottom: 3px solid palevioletred ;
+ }
+ 
+ .contact{
+     padding: 10px 20px;
+     background-color:bisque;
+     color: rgb(177, 70, 88);
+     border-radius:8px;
+     font-size: 16px;
+     letter-spacing: 1px;
+     font-weight:600;
+     transition: 0.3s ease
+ }  
+ .contact a:hover{
+     background-color: beige;
+     box-shadow: 0 0 25px rgba(216, 112, 147, 0.548);
+     color: white
+ }
+ .About{
+     width: 100%;
+     min-height: 150vh ;
+     background: beige ;
+     display: flex;
+     align-items: center;
+     gap: 7cm;
+     padding: 30px 12% 0;
+ }
+ .About-content{
+     max-width: 600px;
+ }
+ .About-content h2{
+     font-size: 42px;
+ }
+ .About-content p{
+     font-size: 24px;
+     margin: 14px 0 20px
+ }
+ .btn-1{
+    padding: 15px 28px;
+    background-color: bisque;
+    color: palevioletred;
+    border:2px solid transparent; 
+    border-radius: 8px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: o.3s ease;
+    cursor: pointer;
+
+}
+.btn-1:hover{
+    background-color: palevioletred;
+    color: rgb(250, 242, 233);
+    border: 2px solid pink
+}
+.img-box2 img{
+    border-radius:50%;
+    width: 550px;
+    height: 470;
+}
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: bisque;
+    width: 50px;
+}
